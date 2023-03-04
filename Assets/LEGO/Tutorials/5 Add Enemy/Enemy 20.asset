@@ -42,6 +42,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: Enemy 20
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Select the Shoot brick
   m_Paragraphs:
     m_Items:
     - m_Type: 7
@@ -87,7 +89,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Select the Shoot brick
+        m_Untranslated: 
       Text:
         m_Untranslated: "Let\u2019s add a <b>Shoot</b> action brick so your bird
           can attack the player."
@@ -249,6 +251,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 0
   m_PrefabParent: {fileID: 5952549877573738461, guid: 64d1d089ce11e4eadaa32af6d2e3d1fd,
     type: 3}
   m_FuturePrefabInstances:

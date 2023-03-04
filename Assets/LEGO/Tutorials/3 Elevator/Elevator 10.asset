@@ -27,6 +27,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: Elevator 10
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Add an Elevator brick
   m_Paragraphs:
     m_Items:
     - m_Type: 7
@@ -55,6 +57,7 @@ MonoBehaviour:
           m_MaskSizeModifier: 0
           m_UnmaskedControls:
           - m_SelectorMode: 4
+            m_SelectorMatchType: 0
             m_GUIContent:
               m_Text: Elevator
               m_Image: {fileID: 0}
@@ -96,7 +99,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Add an Elevator brick
+        m_Untranslated: 
       Text:
         m_Untranslated: "In this LEGO\xAE Microgame, you can easily add functionality
           and mechanics to your game with <b>LEGO\xAE Behaviour Bricks!</b>\n\nJust
@@ -241,6 +244,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 0
   m_PrefabParent: {fileID: 5952549877573738461, guid: 498488446aa4c453ebfad8a187f1299a,
     type: 3}
   m_FuturePrefabInstances:

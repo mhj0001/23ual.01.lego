@@ -33,6 +33,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 0
   m_PrefabParent: {fileID: 1131105764539881246, guid: e3e699aed59724e4b960325459cf8173,
     type: 3}
   m_FuturePrefabInstances:
@@ -52,6 +53,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: Enemy 10
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Add an enemy character
   m_Paragraphs:
     m_Items:
     - m_Type: 7
@@ -97,7 +100,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Add an enemy character
+        m_Untranslated: 
       Text:
         m_Untranslated: "The first step of creating an enemy is to add a new character.
           Let\u2019s add a bird!"
@@ -238,6 +241,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 0
   m_Callback:
     _target: {fileID: 11400000, guid: 9d534143125290d4a8bd3a06aa687f86, type: 2}
     _methodName: SelectedObjectIsNotBeingMoved

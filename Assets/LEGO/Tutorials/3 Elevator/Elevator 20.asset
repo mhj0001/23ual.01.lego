@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: Elevator 20
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Add a trigger to the elevator
   m_Paragraphs:
     m_Items:
     - m_Type: 7
@@ -40,6 +42,7 @@ MonoBehaviour:
           m_MaskSizeModifier: 0
           m_UnmaskedControls:
           - m_SelectorMode: 4
+            m_SelectorMatchType: 0
             m_GUIContent:
               m_Text: Touch Trigger
               m_Image: {fileID: 0}
@@ -81,7 +84,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Add a trigger to the elevator
+        m_Untranslated: 
       Text:
         m_Untranslated: "Now that the elevator moves up and down, let\u2019s make
           it move only when the player reaches it.\n\nWhen you turned the platform
@@ -248,6 +251,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 0
   m_PrefabParent: {fileID: 5952549877573738461, guid: 45a9e243fd71443c68c6819cdcac03de,
     type: 3}
   m_FuturePrefabInstances:

@@ -33,6 +33,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 0
   m_PrefabParent: {fileID: 5952549877573738461, guid: dec0a645588d04d8bb0ca99f70ffa743,
     type: 3}
   m_FuturePrefabInstances:
@@ -52,6 +53,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: Customize 15
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Add an Explode brick
   m_Paragraphs:
     m_Items:
     - m_Type: 7
@@ -97,7 +100,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Add an Explode brick
+        m_Untranslated: 
       Text:
         m_Untranslated: "Before you get to the island, though, you\u2019ll need to
           get through the fence. Right now, even a double-jump won\u2019t get you

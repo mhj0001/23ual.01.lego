@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: Customize 25
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Add a detonator base
   m_Paragraphs:
     m_Items:
     - m_Type: 7
@@ -57,7 +59,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Add a detonator base
+        m_Untranslated: 
       Text:
         m_Untranslated: "Let's set up the Explode brick so the player can detonate
           it!\n\nFirst, let\u2019s add a base for the detonator, at a safe distance
@@ -210,6 +212,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 0
   m_PrefabParent: {fileID: 7298465921116899227, guid: 38f75548c0b324b2682cbad7b09fcecd,
     type: 3}
   m_FuturePrefabInstances:
